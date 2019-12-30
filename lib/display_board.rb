@@ -5,7 +5,7 @@ def display_board
     if i > 1
       puts "-----------"
     end
-    if i * 3 > gets.chomp
+    if i * 3 > 2
       puts " x  |   |   "
     else
       puts "   |   |   "
